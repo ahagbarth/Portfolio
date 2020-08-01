@@ -38,8 +38,8 @@
               </div>
             </div>
             <div class="column">
-              <div>
-                  <a href="https://placeholder.com"><div class="profile-image"><img src="https://via.placeholder.com/300/171B2C" alt=""></div></a>
+              <div class="image-container">
+                  <a ><div class="profile-image"><img src="https://via.placeholder.com/300/171B2C" alt=""></div></a>
               </div>
             </div>
         </div>
@@ -86,8 +86,14 @@ export default {
   font-size: 1.16667rem; /* 21 / 18 = 1.1667 */
   margin-bottom: 1.41429rem;
 }
+
+.image-container{
+    display:flex;
+    place-content:center
+
+}
+
 .profile-image{
-  margin-top: -3rem;
   border: 6px solid #1FF2FF;
   border-radius: 5px;
   height: 312.5px;
@@ -100,7 +106,6 @@ export default {
 .bold{font-weight: 700;}
 .uppercase{text-transform: uppercase;}
 .wrapper{
-  margin-top: -3rem;
   position: relative;
   text-align: center;
   color: white;
