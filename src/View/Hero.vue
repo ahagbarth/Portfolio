@@ -19,6 +19,9 @@
             <a class="navbar-item">
               Contact Me
             </a>
+            <a class="navbar-item cv-download">
+              Download CV
+            </a>
           </div>
         </div>
       </div>
@@ -123,6 +126,11 @@ export default {
 .name {
   font-size: 8rem; /* 117 / 18 = 6.5 */
   margin-bottom: 0.3rem;
+}
+.cv-download{
+  border: 3px solid #1FF2FF;
+  color: #1FF2FF;
+  border-radius: 10px;
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 </style>
