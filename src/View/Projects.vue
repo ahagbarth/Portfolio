@@ -1,7 +1,7 @@
 <template>
   <section class="hero is-fullheight about" >
     <div style="position:relative">
-      <div class="hero-body" style="margin-top:2rem">
+      <div class="hero-body" style="margin-top:2rem; margin-bottom:3rem">
         <div class="container">
           <div class="title">
             <p>Projects</p>
