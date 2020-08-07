@@ -1,33 +1,9 @@
 <template>
-  <section class="hero is-fullheight about" >
-    <div>
+  <section class="hero is-large about" >
+    <div style="position:relative">
       <div class="container">
-        <div class="tile is-ancestor">
-          <div class="tile is-parent skills">
-            <img src="https://img.icons8.com/color/240/000000/vue-js.png"/>
-            </div>
-         <div class="tile is-parent skills">
-           <img src="https://img.icons8.com/color/240/000000/react-native.png"/>
-         </div>
-          <div class="tile is-parent skills">
-            <img src="https://img.icons8.com/color/240/000000/javascript.png"/>
-          </div>
-        </div>
-                <div class="tile is-ancestor">
-          <div class="tile is-parent skills">
-              <img src="https://img.icons8.com/color/256/000000/nodejs.png"/>
-            </div>
-         <div class="tile is-parent skills">
-          <img src="https://img.icons8.com/color/240/000000/git.png"/>
-         </div>
-         <div class="tile is-parent skills">
-          <img src="https://img.icons8.com/color/240/000000/android-os.png"/>
-         </div>
-        </div>
-        <br>
-        <br>
-        <div class="tile is-ancestor skills">
-            <span>and more...</span>
+        <div class="title">
+          <div class="is-size-1 montserrat">Skills</div>
         </div>
       </div>
     </div>
@@ -68,11 +44,17 @@ export default {
 .custom-shape-divider-top-1595963035 .shape-fill {
     fill: #fafafa;
 }
-.title{font-weight: 400;}
+.title{
+  display:flex; place-content:center
+}
+.montserrat{
+  font-weight: 600;
+  font-family: 'Montserrat';
+  margin-bottom: 2rem;
+}
 .text{
   font-size: 2em;
   font-weight: 200;
-
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 

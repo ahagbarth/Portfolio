@@ -1,16 +1,9 @@
 <template>
           <div class="box">
             <div class="tile is-ancestor">
-              <div class="tile is-parent">
-                <article class="tile is-child ">
-                  <figure class="image image is-5by4">
-                    <img src="../assets/SparkAnime.png">
-                  </figure>
-                </article>
-              </div>
               <div class="tile is-parent is-8">
                 <article class="tile is-child">
-                  <p class="title is-size-3">Mobile Poker App</p>
+                  <p class="title is-size-3">Running Tracker App</p>
                   <div class="text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                   </div>
@@ -20,16 +13,19 @@
                   <div class="text">
                     <div class="center">
                       <div><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"/></div>
-                      <div><img src="https://img.icons8.com/color/48/000000/javascript.png"/></div>
-                      <div><img src="../assets/1195870361551952104 (1).svg"/></div>
                     </div>
                   </div>
                   <div>
                     <div class="buttons center">
-                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCodePokerAppClient">Source Code Client</button>
-                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCodePokerAppServer">Source Code Server</button>
-                    </div>
+                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCode">Source Code</button>                    </div>
                   </div>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child ">
+                  <figure class="image image is-5by4">
+                    <img src="../assets/SparkAnime.png">
+                  </figure>
                 </article>
               </div>
             </div>
@@ -38,13 +34,10 @@
 
 <script>
 export default {
-  name: 'PokerApp',
+  name: 'RunningTrackerApp',
   methods: {
-    handleSourceCodePokerAppClient: function () {
-      window.open('https://github.com/ahagbarth/Poker-Android')
-    },
-    handleSourceCodePokerAppServer: function () {
-      window.open('https://github.com/ahagbarth/PokerServer2')
+    handleSourceCode: function () {
+      window.open('https://github.com/ahagbarth/RunningTracker')
     }
   }
 }

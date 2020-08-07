@@ -9,6 +9,10 @@
           <SparkAnime></SparkAnime>
           <br>
           <PokerApp></PokerApp>
+          <br>
+          <RunningTrackerApp></RunningTrackerApp>
+          <br>
+          <GroupProject></GroupProject>
         </div>
       </div>
     </div>
@@ -18,11 +22,15 @@
 <script>
 import SparkAnime from '../components/SparkAnimeProject'
 import PokerApp from '../components/PokerApp'
+import GroupProject from '../components/GroupProject'
+import RunningTrackerApp from '../components/RunningTrackerApp'
 export default {
   name: 'Hero',
   components: {
     SparkAnime,
-    PokerApp
+    PokerApp,
+    GroupProject,
+    RunningTrackerApp
   }
 }
 </script>

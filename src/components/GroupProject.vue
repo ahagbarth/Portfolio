@@ -4,13 +4,13 @@
               <div class="tile is-parent">
                 <article class="tile is-child ">
                   <figure class="image image is-5by4">
-                    <img src="../assets/SparkAnime.png">
+                    <img src="../assets/GroupProject/HomeScreen.jpg">
                   </figure>
                 </article>
               </div>
               <div class="tile is-parent is-8">
                 <article class="tile is-child">
-                  <p class="title is-size-3">Mobile Poker App</p>
+                  <p class="title">University Group Project</p>
                   <div class="text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                   </div>
@@ -19,15 +19,15 @@
                   </div>
                   <div class="text">
                     <div class="center">
-                      <div><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"/></div>
                       <div><img src="https://img.icons8.com/color/48/000000/javascript.png"/></div>
-                      <div><img src="../assets/1195870361551952104 (1).svg"/></div>
+                      <div><img src="https://img.icons8.com/offices/48/000000/php-logo.png"/></div>
+                      <div><img src="https://img.icons8.com/color/48/000000/css3.png"/></div>
                     </div>
                   </div>
                   <div>
                     <div class="buttons center">
-                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCodePokerAppClient">Source Code Client</button>
-                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCodePokerAppServer">Source Code Server</button>
+                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCode">Source Code</button>
+                        <button class="button is-outlined is-rounded is-small text" @click="handleLive">Live Site</button>
                     </div>
                   </div>
                 </article>
@@ -38,13 +38,13 @@
 
 <script>
 export default {
-  name: 'PokerApp',
+  name: 'GroupProject',
   methods: {
-    handleSourceCodePokerAppClient: function () {
-      window.open('https://github.com/ahagbarth/Poker-Android')
+    handleLive: function () {
+      window.open('https://www.nottingham.ac.uk/~sazintra/public/cfgc/')
     },
-    handleSourceCodePokerAppServer: function () {
-      window.open('https://github.com/ahagbarth/PokerServer2')
+    handleSourceCode: function () {
+      window.open('https://github.com/alexhambley/grp')
     }
   }
 }
