@@ -4,7 +4,7 @@
       <div class="hero-body" style="margin-top:2rem; margin-bottom:3rem">
         <div class="container">
           <div class="title">
-            <p>Projects</p>
+            <div class="is-size-1 montserrat">Projects</div>
           </div>
           <SparkAnime></SparkAnime>
           <br>
@@ -43,7 +43,11 @@ export default {
 .text{
   font-size: 2em;
   font-weight: 200;
-
+}
+.montserrat{
+  font-weight: 600;
+  font-family: 'Montserrat';
+  margin-bottom: 2rem;
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 

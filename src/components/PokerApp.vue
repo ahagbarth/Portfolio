@@ -3,24 +3,24 @@
             <div class="tile is-ancestor">
               <div class="tile is-parent is-8">
                 <article class="tile is-child">
-                  <p class="title">Mobile Poker App</p>
-                  <div class="content">
+                  <p class="title is-size-3">Mobile Poker App</p>
+                  <div class="text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                   </div>
-                  <div class="content">
+                  <div class="text">
                     <div class="center">Tech Stack:</div>
                   </div>
-                  <div class="content">
+                  <div class="text">
                     <div class="center">
                       <div><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"/></div>
                       <div><img src="https://img.icons8.com/color/48/000000/javascript.png"/></div>
                       <div><img src="../assets/1195870361551952104 (1).svg"/></div>
                     </div>
                   </div>
-                  <div class="content">
+                  <div>
                     <div class="buttons center">
-                        <button class="button is-outlined is-rounded is-small" @click="handleSourceCodePokerAppClient">Source Code Client</button>
-                        <button class="button is-outlined is-rounded is-small" @click="handleSourceCodePokerAppServer">Source Code Server</button>
+                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCodePokerAppClient">Source Code Client</button>
+                        <button class="button is-outlined is-rounded is-small text" @click="handleSourceCodePokerAppServer">Source Code Server</button>
                     </div>
                   </div>
                 </article>
@@ -56,7 +56,8 @@ export default {
   background-color: #fafafa
 }
 .title{
-  font-weight: 400;
+  font-weight: 500;
+  font-family: 'Montserrat';
   display:flex; place-content:center
 }
 .center{
@@ -64,9 +65,8 @@ export default {
   place-content: center
 }
 .text{
-  font-size: 2em;
-  font-weight: 200;
-
+  font-family: 'Montserrat';
+  margin: 1rem
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
