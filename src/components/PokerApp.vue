@@ -12,7 +12,7 @@
                 <article class="tile is-child">
                   <p class="title is-size-3">Mobile Poker App</p>
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                    <p>This is an app developed for android devices for users to play poker in real-time. Using Firebase, the app has a login system which is used to maintain the user stats, money and add friends. The app achieves real-time communication between the devices with the use of SocketIO, so that the gameplay is as smooth as possible.</p>
                   </div>
                   <div class="text">
                     <div class="center">Tech Stack:</div>

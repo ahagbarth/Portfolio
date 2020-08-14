@@ -12,7 +12,7 @@
                 <article class="tile is-child">
                   <p class="title">University Group Project</p>
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                    <p>This project is a web-tool that was developed as a group for the university. It was designed for the Food Science students to be able to discover jobs that match their skills. </p>
                   </div>
                   <div class="text">
                     <div class="center">Tech Stack:</div>

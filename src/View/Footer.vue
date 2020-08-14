@@ -5,17 +5,17 @@
         <div class="container">
           <div style="display:flex; place-content:center">
             <p class="buttons">
-             <button class="button is-small">
+             <button class="button is-small" @click="handleOpenGithub">
               <span class="icon">
                 <font-awesome-icon :icon="['fab', 'github']" size="2x"/>
               </span>
             </button>
-            <button class="button is-small">
+            <button class="button is-small" @click="handleOpenLinkedIn">
               <span class="icon">
                 <font-awesome-icon :icon="['fab', 'linkedin-in']" size="2x"/>
               </span>
             </button>
-            <button class="button is-small">
+            <button class="button is-small" @click="handleOpenFacebook">
               <span class="icon">
                 <font-awesome-icon :icon="['fab', 'facebook-f']" size="2x"/>
               </span>
@@ -30,7 +30,18 @@
 
 <script>
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  methods: {
+    handleOpenGithub: function () {
+      window.open('https://github.com/ahagbarth')
+    },
+    handleOpenLinkedIn: function () {
+      window.open('https://www.linkedin.com/in/alexander-hagbarth/')
+    },
+    handleOpenFacebook: function () {
+      window.open('https://www.facebook.com/alex.hagbarth/')
+    }
+  }
 }
 </script>
 
@@ -46,8 +57,8 @@ export default {
 .button:hover{
   color: white;
   background-color:#012475;
--webkit-box-shadow: 0px 0px 15px 2px rgba(31,242,255,1);
--moz-box-shadow: 0px 0px 15px 2px rgba(31,242,255,1);
-box-shadow: 0px 0px 15px 2px rgba(31,242,255,1);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(31,242,255,1);
+  -moz-box-shadow: 0px 0px 15px 2px rgba(31,242,255,1);
+  box-shadow: 0px 0px 15px 2px rgba(31,242,255,1);
 }
 </style>

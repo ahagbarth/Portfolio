@@ -28,7 +28,7 @@
                   <textarea class="textarea" placeholder="Textarea"></textarea>
                 </div>
               </div>
-              <div class="field">
+              <div class="field" style="display:flex;place-content:center">
                 <div class="control">
                   <button class="button">
                     Send message

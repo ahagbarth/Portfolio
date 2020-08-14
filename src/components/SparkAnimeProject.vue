@@ -5,7 +5,7 @@
                 <article class="tile is-child">
                   <p class="title">Spark Anime</p>
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                    <p>This website was developed to help anime fans find new content to watch and keep up with recent releases. By displaying different categories, among other filters, it will help narrow down to what the user is looking for. Using the Anilist API, the catalogue is vast and automatically updated.</p>
                   </div>
                   <div class="text">
                     <div class="center">Tech Stack:</div>

@@ -5,7 +5,7 @@
                 <article class="tile is-child">
                   <p class="title is-size-3">Running Tracker App</p>
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                    <p>A fitness distance tracker app developed for Android devices. The app displays a list of the history of the user's runs which displays the run time, speed, distance and, with the integration of google maps, the route.</p>
                   </div>
                   <div class="text">
                     <div class="center">Tech Stack:</div>
