@@ -1,5 +1,5 @@
 <template>
-          <div class="box">
+          <div class="box"   data-aos="fade-up" data-aos-duration="6000">
             <div class="tile is-ancestor">
               <div class="tile is-parent is-8">
                 <article class="tile is-child">
@@ -67,6 +67,11 @@ export default {
 .text{
   font-family: 'Montserrat';
   margin: 1rem
+}
+.image{
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 

@@ -1,5 +1,5 @@
 <template>
-          <div class="box">
+          <div class="box"  data-aos="fade-up" data-aos-duration="6000">
             <div class="tile is-ancestor">
               <div class="tile is-parent">
                 <article class="tile is-child ">

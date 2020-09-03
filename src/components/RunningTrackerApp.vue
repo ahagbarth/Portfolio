@@ -1,5 +1,5 @@
 <template>
-          <div class="box">
+          <div class="box"   data-aos="fade-up" data-aos-duration="6000">
             <div class="tile is-ancestor">
               <div class="tile is-parent is-8">
                 <article class="tile is-child">
@@ -24,7 +24,7 @@
               <div class="tile is-parent">
                 <article class="tile is-child ">
                   <figure class="image image is-5by4">
-                    <img src="../assets/SparkAnime.png">
+                    <img src="../assets/runningapp.jpeg">
                   </figure>
                 </article>
               </div>
@@ -56,6 +56,11 @@ export default {
 .center{
   display: flex;
   place-content: center
+}
+.image{
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
 }
 .text{
   font-family: 'Montserrat';

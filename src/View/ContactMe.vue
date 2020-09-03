@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-medium contact-me">
+  <section class="hero is-medium contact-me" id="contact">
     <div style="position:relative">
      <div class="custom-shape-divider-top-1596664284">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -8,34 +8,38 @@
       </div>
       <div class="hero-body">
         <div class="container form-body">
-          <div class="form">
-             <div class="field">
-                <label class="label">Name</label>
-                <div class="control">
-                  <input class="input" type="text" placeholder="e.g Alex Smith">
+          <form class="contact-form" @submit.prevent="sendEmail">
+            <div style="display:flex; place-content:center">
+            <div class="form" @submit.prevent="sendEmail">
+              <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="e.g Alex Smith" name="from_name">
+                  </div>
                 </div>
-              </div>
 
-              <div class="field">
-                <label class="label">Email</label>
-                <div class="control">
-                  <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control">
+                    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" name="from_email">
+                  </div>
                 </div>
-              </div>
-              <div class="field">
-                <label class="label">Message</label>
-                <div class="control">
-                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"  name="message"></textarea>
+                  </div>
                 </div>
-              </div>
-              <div class="field" style="display:flex;place-content:center">
-                <div class="control">
-                  <button class="button">
-                    Send message
-                  </button>
+                <div class="field" style="display:flex;place-content:center">
+                  <div class="control">
+                    <button class="button"  type="submit" value="Send">
+                      Send message
+                    </button>
+                  </div>
                 </div>
-              </div>
-          </div>
+            </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -43,20 +47,27 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com'
+
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('gmail', 'portfolio', e.target, 'user_ifVism3xs8aLPVEZw3BpW')
+        .then((result) => {
+          console.log('SUCCESS!', result.status, result.text)
+        }, (error) => {
+          console.log('FAILED...', error)
+        })
+    }
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .contact-me{
-  background-color: #D3D3D3
-}
-.form-body{
-  display: flex;
-  place-content: center;
-  width: 50%;
+  background-color: #F0F3F5
 }
 .custom-shape-divider-top-1596664284 {
     position: absolute;

@@ -1,12 +1,12 @@
 <template>
-  <section class="hero is-fullheight about" >
+  <section class="hero is-fullheight about" id="project">
     <div style="position:relative">
       <div class="hero-body" style="margin-top:2rem; margin-bottom:3rem">
         <div class="container">
-          <div class="title">
+          <div class="title"  data-aos="fade-up">
             <div class="is-size-1 montserrat">Projects</div>
           </div>
-          <SparkAnime></SparkAnime>
+          <SparkAnime ></SparkAnime>
           <br>
           <PokerApp></PokerApp>
           <br>
